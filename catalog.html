@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<title> Roblxa - Catalog</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Tomorrow;
+  padding: 10px;
+  background: #7c7c7c;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #7c7c7c;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+.header p {
+  font-size: 35px;
+  color: rgb(224, 3, 3)
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: black;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: red;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: center;
+  width: 100%;
+  background-color: #aaa;
+  align-content: center;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: #aaa;
+  padding: 20px;
+  margin-top: 20px;
+  color: white;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #7c7c7c;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+  p {
+    color: white;
+  }
+
+  h2 {
+    color: rgb(224, 3, 3);
+  }
+
+  h3 {
+    color: rgb(224, 3, 3);
+  }
+
+  table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  font-family: Tomorrow;
+}
+
+td, th {
+  border: 4px solid black;
+  text-align: left;
+  padding: 8px;
+  color: rgb(224, 3, 3);
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1><img src="images/roblxalogo.png"></h1>
+  <p><strong>HOME</strong></p>
+</div>
+
+<div class="topnav">
+  <a href="help.html">Help</a>
+  <a href="index.html">Home</a>
+  <a href="popular.html">Popular Games</a>
+  <a href="catalog.html">Catalog</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>CATALOG</h2>
+	  <table>
+		<tr>
+		  <th>CLOTHING</th>
+		  <th>AVATARS</th>
+		  <th>HAIRS</th>
+		  <th>FACES</th>
+		</tr>
+		<tr>
+		  <td><img src="images/clothing1.webp" height="150px" width="150px"></td>
+		  <td><img src="images/avatar1.webp" height="150px" width="150px"></td>
+		  <td><img src="images/hair1.webp" height="150px" width="150px"></td>
+		  <td><img src="images/face1.webp" height="150px" width="150px"></td>
+		</tr>
+		<tr>
+		  <td><img src="images/clothing2.webp" height="150px" width="150px"></td>
+		  <td><img src="images/avatar2.png" height="150px" width="150px"></td>
+		  <td><img src="images/hair2.png" height="150px" width="150px"></td>
+		  <td><img src="images/face2.png" height="150px" width="150px"></td>
+		</tr>
+		<tr>
+		  <td><img src="images/clothing3.webp" height="150px" width="150px"></td>
+		  <td><img src="images/avatar3.webp" height="150px" width="150px"></td>
+		  <td><img src="images/hair3.png" height="150px" width="150px"></td>
+		  <td><img src="images/face3.png" height="150px" width="150px"></td>
+		</tr>
+		<tr>
+		  <td><img src="images/clothing4.png" height="150px" width="150px"></td>
+		  <td><img src="images/avatar4.webp" height="150px" width="150px"></td>
+		  <td><img src="images/hair4.webp" height="150px" width="150px"></td>
+		  <td><img src="images/face4.png" height="150px" width="150px"></td>
+		</tr>
+		<tr>
+		  <td><img src="images/clothing5.png" height="150px" width="150px"></td>
+		  <td><img src="images/avatar5.webp" height="150px" width="150px"></td>
+		  <td><img src="images/hair5.png" height="150px" width="150px"></td>
+		  <td><img src="images/face5.png" height="150px" width="150px"></td>
+		</tr>
+		<tr>
+		  <td><img src="images/clothing6.png" height="150px" width="150px"></td>
+		  <td><img src="images/avatar6.webp" height="150px" width="150px"></td>
+		  <td><img src="images/hair6.png" height="150px" width="150px"></td>
+		  <td><img src="images/face6.png" height="150px" width="150px"></td>
+		</tr>
+	  </table>
+  </div>
+</div>
+
+<div class="footer">
+<footer>
+  <p>&copy; L Sirard, WHS Web Design 2024
+  <a href="https://www.instagram.com/walpolehighschool/" target="_blank"><img src="images/instalogo.webp" width="50px" height="50px" alt="insta"></a>
+  <a href="https://x.com/i/flow/login?redirect_after_login=%2FWalpoleHS" target="_blank"><img src="images/xlogo.png" width="50px" height="50px" alt="x"></a>
+</p>
+</footer>
+</div>
+
+</body>
+</html>
+

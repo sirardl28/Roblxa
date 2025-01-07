@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<title> Roblxa - Index</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Tomorrow;
+  padding: 10px;
+  background: #7c7c7c;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #7c7c7c;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+.header p {
+  font-size: 35px;
+  color: rgb(224, 3, 3)
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: black;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: red;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+  background-color: #aaa;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #7c7c7c;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: #aaa;
+  padding: 20px;
+  margin-top: 20px;
+  color: white;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #7c7c7c;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+  p {
+    color: white;
+  }
+
+  h2 {
+    color: rgb(224, 3, 3);
+  }
+
+  h3 {
+    color: rgb(224, 3, 3);
+  }
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1><img src="images/roblxalogo.png"></h1>
+  <p><strong>HOME</strong></p>
+</div>
+
+<div class="topnav">
+  <a href="help.html">Help</a>
+  <a href="index.html">Home</a>
+  <a href="popular.html">Popular Games</a>
+  <a href="catalog.html">Catalog</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>ABOUT US</h2>
+      <p>Roblxa was founded in 2024. The founders were Lily Sirard and Kate Spillane. The main headquarters are located in Walpole, Massachusetts.
+
+        The first couple hundred builders of Roblxa were all developers, investors, testers, and friends of the founders. Our project straddles several rapidly-developing aspects of internet entertainment: virtual worlds, casual gaming, and player-constructed content. Roblxa is free to play and safe for kids aged 4+. Our product remains under development and changes to the apps and product happen frequently. We deeply value community feedback as we continue to make Roblox into a platform that will excite the imagination of the young and the young at heart</p>
+    </div>
+    <div class="card">
+      <h2>CUSTOMIZING AVATAR AND CATALOG</h2>
+      <div class="fakeimg"><img src="images/robloxavatareditor.jfif" height="400px" width="450px"><img src="images/avatarcatalog.jpeg"></div>
+      <p>With the avatar editor you can customize how you look. You can modify your avatar using ALL the accessories, animations, emotes, clothes, bundles and more, some items cost robxa(coins/money to buy things). The catalog gives you a list of items that you can wear and buy, you can also see or buy other people's items that they created if they posted on the catalog.</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h3>CONTACT US</h3>
+      <p>If you need to contact us please contact us here, roblxaoffical@gmail.com or on our instagram @roblxaoffical, you can also call us on 684-387-3639</p><br><br>
+      <p><h3>BECOME A MEMBER</h3><form action="/action_page.php">
+        <label for="fname">First and Last Name:</label><br>
+        <input type="text" id="fandlname" name="fandlname" value=""><br>
+        <label for="lname">Gmail:</label><br>
+        <input type="text" id="gmail" name="gmail" value=""><br><br>
+        <input type="submit" value="Submit">
+      </form>
+        By becoming a member you will ahve access to more things on own website and you will get daily rewards!</p>
+  </div>
+</div>
+
+<div class="footer">
+<footer>
+  <p>&copy; L Sirard, WHS Web Design 2024
+  <a href="https://www.instagram.com/walpolehighschool/" target="_blank"><img src="images/instalogo.webp" width="50px" height="50px" alt="insta"></a>
+  <a href="https://x.com/i/flow/login?redirect_after_login=%2FWalpoleHS" target="_blank"><img src="images/xlogo.png" width="50px" height="50px" alt="x"></a>
+</p>
+</footer>
+</div>
+
+</body>
+</html>
+

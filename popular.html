@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<title> Roblxa - Popular Games</title>
+<style>
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Tomorrow;
+    padding: 10px;
+    background: #7c7c7c;
+  }
+  
+  /* Header/Blog Title */
+  .header {
+    padding: 30px;
+    text-align: center;
+    background: #7c7c7c;
+  }
+  
+  .header h1 {
+    font-size: 50px;
+  }
+  
+  .header p {
+    font-size: 35px;
+    color: rgb(224, 3, 3)
+  }
+  
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: black;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: red;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: red;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {   
+    float: left;
+    width: 75%;
+    background-color: #aaa;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #7c7c7c;
+    padding-left: 20px;
+    color: white;
+  }
+  
+  /* Fake image */
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color: #aaa;
+    padding: 20px;
+    margin-top: 20px;
+    color: white;
+  }
+  
+  /* Clear floats after the columns */
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #7c7c7c;
+    margin-top: 20px;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
+    p {
+      color: white;
+    }
+  
+    h2 {
+      color: rgb(224, 3, 3);
+    }
+  
+    h3 {
+      color: rgb(224, 3, 3);
+    }
+  
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <h1><img src="images/roblxalogo.png"></h1>
+  <p><strong>POPULAR GAMES</strong></p>
+</div>
+
+<div class="topnav">
+  <a href="help.html">Help</a>
+  <a href="index.html">Home</a>
+  <a href="popular.html">Popular Games</a>
+  <a href="catalog.html">Catalog</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>MOST FREQUENTLY PLAYED GAMES</h2>
+      <div class="fakeimg"><img src="images/gamedresstoimpress.png" height="400px" width="350px"><img src="images/gamesharkbite.webp" height="350px" width="300px"></div>
+      <p>Some games that are played a lot are Dress to Impress, Sharkbite and Brookhaven, this is because they are interactive games that are interesting to play but they can also be stressful. In these games you can also be very creative and experiment with clothing, buildings, lifestyles and boats to name a few.</p><br>
+      <p>Dress to Impress is a game where you get a catagory and you have to dress to that catagory using the clothing in the game, there is a runway where other players will judge you based on your outfit, there is a ceremony to see the winners and you can rank up by gettings starts and you get them by other peoples thoughts on your outfit. Sharkbite is someone is randomly choosen to play the shark and attack people while they are in boats trying to avoid getting eaten. The shark can win if they eat all of the people, and the people can win if the shark doesn't eat everyone or they kill the shark with the weapons they are given. You can gain points and with these points, you can buy things in the game and you can level up with these points too!</p>
+    </div>
+    <div class="card">
+      <h2>TOP RATED GAMES</h2>
+      <div class="fakeimg"><img src="images/gameadoptme.jfif" height="350px" width="300px"><img src="images/gamemurdermystery2.jfif" height="350px" width="300px"><img src="images/gamebloxburg.jpg" height="350px" width="300px"></div>
+      <p>In Adopt Me, you build and customise a home, look after pets and make friends with other players. The main focus is on adopting, raising and collecting the various pets. You can also decorate your house and unlock vehicles.<br><br>Murder Mystery 2 is a thrilling game where players take on different roles in a suspenseful setting. The main goal is simple: survive and find out who the murderer is. There are three roles you can play. Innocent, Sheriff, Murderer and Hero(not a role but you can earn this name if you shoot the murderer after the sheriff died).<br><br>In Bloxburg, the game is an open-world, life-simulation game that takes place in the fictional city of Bloxburg. Players must take care of their character by fulfilling moods. Players can also achieve skills, work for money, explore the large city and most of all, roleplay and interact with other players. Players can build their own houses and other buildings on their house plots; this build feature offers thorough customization of the user's house.</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h3>MORE POPULAR GAMES</h3>
+      <div class="fakeimg"><img src="images/gamebrookhaven.webp" height="350px" width="315px"> In Brookhaven you can choose your house that you live in, you can choose your car and your lifestyle, you can visit all aounf the town going into stores and buildings. This game is made to play as a roleplay game where you can choose you life.</div><br>
+      <div class="fakeimg"><img src="images/gamepiggy.jfif" height="350px" width="315px">Piggy is a Survival Horror game, originally made as a Lightmare Fuel parody of Granny and Peppa Pig, you play as a police officer searching for a missing boy named Georgie Piggy. Upon arriving however, you hear a snort right behind you and are knocked out.</div>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  
+  <p>&copy; L Sirard, WHS Web Design 2024
+  <a href="https://www.instagram.com/walpolehighschool/" target="_blank"><img src="images/instalogo.webp" width="50px" height="50px" alt="insta"></a>
+  <a href="https://x.com/i/flow/login?redirect_after_login=%2FWalpoleHS" target="_blank"><img src="images/xlogo.png" width="50px" height="50px" alt="x"></a>
+</p>
+</div>
+
+</body>
+</html>
